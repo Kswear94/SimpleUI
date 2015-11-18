@@ -14,7 +14,7 @@ public class DisplayMessageActivity extends AppCompatActivity
     {
         super.onCreate(savedInstanceState);
         // Get the message from the intent
-        // Extracting from Simple UI
+        // Extracting from SimpleUI
         Intent intent = getIntent();
         String message = intent.getStringExtra(SimpleUI.EXTRA_MESSAGE);
         // Create te text view
